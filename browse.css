@@ -1,0 +1,151 @@
+
+:root {
+    --primary-color: #eeedeb;
+    --secondary-color:#E75E8C;
+    --bg-color:#3c3633;
+    --bgSecondary-color:#747264;
+    --font-family: "Sofia", sans-serif;
+    --shadow:3px 3px 3px #747264;
+  }
+
+.browse-header{
+    gap: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border-radius: 20px;
+    height: max-content;
+}
+.browse-pop-img{
+    padding: 5px;
+    width: 200px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.browse-popular-details{
+    padding: 5px;
+    display:flex;
+    gap: 5%;
+}
+
+.browser-popular-header{
+    font-size: medium;
+    justify-content: center;
+    display: flex;
+}
+.browser-popular-child{
+    border-radius: 20px;
+    background-color: transparent;
+}
+    /*browse-popular left side styles*/
+
+.browse-popular-left{
+    display: flex;
+    padding: 1% 0 ;
+    border-radius: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    width: 60%;
+    transition:1s ease-in-out;
+    margin: 2% 0;
+}
+/* The entire scrollbar */
+.browse-popular-left::-webkit-scrollbar {
+    width: 75%; /* Width of the scrollbar */
+}
+
+/* The track (background) of the scrollbar */
+.browse-popular-left::-webkit-scrollbar-track {
+    background-color:var(--bgSecondary-color);
+    border-radius: 5px; /* Color of the track */
+}
+
+/* The handle (thumb) of the scrollbar */
+.browse-popular-left::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color); /* Color of the handle */
+    border-radius: 6px; /* Rounded corners */
+}
+
+/* Handle on hover */
+.browse-popular-left::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color); /* Darker color on hover */
+}
+
+.browse-popular-img{
+    justify-content: center;
+    object-fit: contain;
+    width: 20px;
+}
+.download-para{
+    font-size: small;
+    text-align: center;
+
+}
+    /*browse-popular left side styles*/
+.browse-popular-right{
+    width: 35%;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+}
+.popular-header-right{
+    border-radius:20px;
+    padding: 5%;
+
+}
+.browse-popular-right-in{
+    display: flex;
+    flex-wrap: wrap;
+}
+.browse-popular-right-img{
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin: 3%;
+    border-radius: 20px;
+}
+.browse-popular-right-info{
+    display: block;
+}
+.browse-popular-right-info-rating{
+    gap: 10%;
+    
+}
+.browse-popular-download{
+    
+    margin: auto;
+    max-width: 70px;
+    max-height: 70px;
+}
+.live-info{
+    text-align: center;
+    background-color: transparent;
+}
+.live-info-in{
+    display: flex;
+    background-color: transparent;
+    gap: 20px;
+}
+.cardd{
+    width: 300px;
+    height: max-content;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: var(--bg-color);
+    background-color:var(--bgSecondary-color);
+    padding: 5px;
+}
+.cardd-img{
+    width: 100px;
+    background-color: transparent;
+}
+.cardd-header{
+    background-color: transparent;
+    color: var(--secondary-color);
+
+}
+.cardd-para{
+    background-color: transparent;
+    color: var(--primary-color);
+}
